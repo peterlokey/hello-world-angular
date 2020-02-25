@@ -1,4 +1,6 @@
-import {Point} from './point';
+let b = (message) => console.log(message);
 
-let point = new Point(1,2);
-point.draw();
+
+var message = "Hello";
+
+b(message);
